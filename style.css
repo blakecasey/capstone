@@ -1,0 +1,114 @@
+html {
+    scroll-behavior: smooth;
+  }
+.background{
+    background-image: url("steak.jpg");  
+    min-height: 750px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .container {
+    position: absolute;
+    width: auto;
+  }
+  .topnav {
+    background-color: rgba(255, 255, 255, 0.479);
+  }
+  .topnav a {
+    background-color: rgb(255, 255, 255);
+    float: right;
+    color: #000000;
+    text-align: center;
+    padding: 25px 141.9px; 
+    margin: auto;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Larsseit", Helvetica, sans-serif;
+    letter-spacing: 2.5px;
+  }
+  .topnav a:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+#welcome{
+  color: rgb(255, 255, 255);
+  font-size: 15vh;
+  font-family: "Larsseit", Helvetica, sans-serif;
+  letter-spacing: 2.5px;
+  margin-left: 450px;
+  margin-top: 300px;
+}
+.button1{
+  color: rgb(255, 255, 255);
+  font-size: 2.5vh;
+  margin-left: 650px;
+  margin-top: 100px;
+  border-radius: 25px;
+  text-decoration: none;
+  cursor: pointer;
+  letter-spacing: 2;
+  background-color: rgba(146, 145, 145, 0);
+  border: 5px solid rgb(255, 255, 255);
+  padding: 25px;
+  transition-duration: 0.4s;
+}
+.button1:hover{
+  background-color: rgba(255, 255, 255, 0.253);
+  border: 5px solid rgb(255, 255, 255);
+  padding: 25px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.header2{
+  background-color: rgb(231, 231, 231);
+  text-align: center;
+  padding: 10px
+}
+#ld{
+  color: rgb(0, 0, 0);
+  font-size: 2vh;
+  font-family: "Larsseit", Helvetica, sans-serif;
+  letter-spacing: 6px;
+  margin-right: 2%;
+  margin-top: 10px;
+}
+#menu{
+  color: rgb(0, 0, 0);
+  font-size: 7.5vh;
+  font-family: "Larsseit", Helvetica, sans-serif;
+  letter-spacing: -6px;
+  margin-right: 2%;
+  margin-top: 10px;
+}
+#description{
+  color: rgb(0, 0, 0);
+  font-size: 2vh;
+  font-family: "Larsseit", Helvetica, sans-serif;
+  margin-right: 2%;
+}
+#food{
+  color: rgb(0, 0, 0);
+  font-size: 5.5vh;
+  font-family: "Larsseit", Helvetica, sans-serif;
+  letter-spacing: -4px;
+  margin-right: 2%;
+  margin-top: 10px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 100px 30px;
+  padding: 75px;
+  background-color: rgb(255, 255, 255);
+}
+
+.grid-item {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  margin: auto;
+  padding: 5px;
+}
+img{
+  margin: auto;
+}
